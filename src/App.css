@@ -90,7 +90,7 @@ header h1 {
   position: fixed;
   top: 0;
   left: 50px;
-  background-color: orange;
+  background-color: rgb(251, 175, 33);
   color: white;
   padding: 20px 10px;
   font-size: 30px;
@@ -121,9 +121,12 @@ header h1 {
   border: none;
   cursor: pointer;
   background-color: #f4cbb2;
-  color: white;
+  color: rgb(70, 67, 67);
   transition: 0.5s ease-in-out;
   text-transform: uppercase;
+}
+.skills button:active {
+  border: none;
 }
 .skills .resume {
   margin-top: 50px;
