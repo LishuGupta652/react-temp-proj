@@ -9,12 +9,6 @@ gsap.registerPlugin(CSSPlugin);
 
 const Header = () => {
   const timeline = new TimelineMax();
-  timeline.fromTo(
-    ".header",
-    1,
-    { height: "0%" },
-    { height: "100%", ease: "Power2.easeInOut" }
-  );
   return (
     <header className="header">
       <div className="wrapper iron-man">
