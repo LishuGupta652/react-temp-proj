@@ -16,7 +16,7 @@ const Projects = () => {
         centerSlidePercentage={70}
         emulateTouch
         autoPlay
-        interval={1000}
+        interval={1500}
         infiniteLoop
       >
         <div>

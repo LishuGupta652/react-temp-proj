@@ -106,6 +106,10 @@ header h1 {
   height: 90%;
   margin: 100px auto;
 }
+.projects h1 {
+  color: #121212;
+  text-transform: uppercase;
+}
 
 /* skills skills skills skills skills  ---------------- */
 .skills {
