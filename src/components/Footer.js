@@ -13,11 +13,11 @@ const Footer = () => {
               <i class="fa fa-copyright" aria-hidden="true"></i>{" "}
               lishugupta652@gmail.com.
             </h3>
+            <div>
+              Will catch you early.{" "}
+              <i class="fa fa-simplybuilt" aria-hidden="true"></i>
+            </div>
           </a>
-          <div>
-            Will catch you early.{" "}
-            <i class="fa fa-simplybuilt" aria-hidden="true"></i>
-          </div>
         </div>
       </footer>
     </div>

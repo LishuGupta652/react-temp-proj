@@ -39,6 +39,7 @@ body {
   position: relative;
   /* cursor: none; */
   overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
 }
 .cursor {
   position: absolute;
@@ -95,9 +96,15 @@ header h1 {
   padding: 20px 10px;
   font-size: 30px;
   font-family: "Montserrat", sans-serif;
-
   font-weight: 300;
   letter-spacing: 4px;
+}
+
+/* Projectss Projectss Projectss Projectss  ----------------- */
+.projects {
+  width: 90%;
+  height: 90%;
+  margin: 100px auto;
 }
 
 /* skills skills skills skills skills  ---------------- */
@@ -148,7 +155,6 @@ footer div {
 footer a {
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
-
   text-transform: uppercase;
   color: black;
   text-decoration: none;
@@ -157,8 +163,7 @@ footer a {
   height: 200vh;
 }
 @media (max-width: 700px) {
-  footer a,
-  footer div {
+  footer {
     text-align: center;
   }
 }
