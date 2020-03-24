@@ -4,9 +4,6 @@ const Skills = () => {
   return (
     <div className="skills">
       <div>
-        <h1>Skills</h1>
-      </div>
-      <div>
         <h1>Who am I</h1>
         <h3>Full Stack Web Developer, Android Developer and Programmer.</h3>
       </div>
@@ -18,7 +15,12 @@ const Skills = () => {
       </div>
       <div className="resume">
         <h1>Resume</h1>
-        <button>View</button>
+        <a
+          href="https://drive.google.com/open?id=1UiG9E1EZsSIehbzVPrvFfXyfyQhO7GC_E66tvmv1vjc"
+          target="_"
+        >
+          <button>View</button>
+        </a>
       </div>
     </div>
   );
