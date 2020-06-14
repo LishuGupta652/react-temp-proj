@@ -1,17 +1,27 @@
-import React, { useRef, useEffect } from "react";
-import "./App.css";
-import Home from "./pages/Home";
+import React from "react";
 
 function App() {
-  // const [cursorCords, setCursorCords] = React.useState({ x: 0, y: 0 });
-  // useEffect(props => {
-  //   document.addEventListener("mousemove", e => {
-  //     // setCursorCords({ x: e.pageX, y: e.pageY });
-  //   });
-  // });
   return (
     <>
-      <Home />
+      <div className="home">
+        <div className="left">
+          <header>
+            <div className="container">
+              <h1>pakkabaniya.</h1>
+              <ul>
+                <li>Hire me</li>
+                <li>Skills</li>
+                <li>Github</li>
+              </ul>
+            </div>
+          </header>
+        </div>
+        <div className="right">
+          <header>
+            <h1>Skills</h1>
+          </header>
+        </div>
+      </div>
     </>
   );
 }
